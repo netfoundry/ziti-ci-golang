@@ -5,7 +5,7 @@ go 1.20
 require (
 	github.com/go-git/go-git/v5 v5.12.0
 	github.com/go-resty/resty/v2 v2.13.1
-	github.com/hashicorp/go-version v1.6.0
+	github.com/hashicorp/go-version v1.7.0
 	github.com/pkg/errors v0.9.1
 	github.com/spf13/cobra v1.8.0
 	github.com/stretchr/testify v1.9.0
