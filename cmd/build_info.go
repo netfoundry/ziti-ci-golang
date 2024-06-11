@@ -1,5 +1,5 @@
 /*
- * Copyright NetFoundry, Inc.
+ * Copyright NetFoundry Inc.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -20,9 +20,9 @@
 package cmd
 
 const (
-	Version   = "v0.3.11"
-	Revision  = "169c17d6f16f"
-	Branch    = "v1"
-	BuildUser = "Paul Lorenz"
-	BuildDate = "2020-02-10 14:50:41"
+	Version   = "v0.5.121"
+	Revision  = "dc36d20c0679"
+	Branch    = "unknown"
+	BuildUser = "unknown"
+	BuildDate = "2024-06-11T19:54:21Z"
 )
