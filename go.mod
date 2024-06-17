@@ -7,7 +7,7 @@ require (
 	github.com/go-resty/resty/v2 v2.13.1
 	github.com/hashicorp/go-version v1.7.0
 	github.com/pkg/errors v0.9.1
-	github.com/spf13/cobra v1.8.0
+	github.com/spf13/cobra v1.8.1
 	github.com/stretchr/testify v1.9.0
 	golang.org/x/mod v0.18.0
 )
