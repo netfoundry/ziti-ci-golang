@@ -4,12 +4,12 @@ go 1.20
 
 require (
 	github.com/go-git/go-git/v5 v5.12.0
-	github.com/go-resty/resty/v2 v2.14.0
+	github.com/go-resty/resty/v2 v2.16.2
 	github.com/hashicorp/go-version v1.7.0
 	github.com/pkg/errors v0.9.1
 	github.com/spf13/cobra v1.8.1
-	github.com/stretchr/testify v1.9.0
-	golang.org/x/mod v0.21.0
+	github.com/stretchr/testify v1.10.0
+	golang.org/x/mod v0.22.0
 )
 
 require (
