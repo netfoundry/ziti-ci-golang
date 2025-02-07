@@ -250,6 +250,8 @@ func (cmd *baseBuildReleaseNotesCmd) GetChanges(project string, oldVersion strin
 		}
 	}()
 
+	issues := map[string]struct{}{}
+
 	for {
 		c, err := iter.Next()
 		if err == io.EOF {
@@ -273,9 +275,12 @@ func (cmd *baseBuildReleaseNotesCmd) GetChanges(project string, oldVersion strin
 
 		issueFound := false
 		for _, issue := range cmd.extractIssues(c) {
-			cmd.outputIssue(issue)
-			showedChange = true
-			issueFound = true
+			if _, ok := issues[issue]; !ok {
+				cmd.outputIssue(issue)
+				showedChange = true
+				issueFound = true
+				issues[issue] = struct{}{}
+			}
 		}
 
 		if !issueFound && cmd.AllCommits {
